@@ -1,6 +1,7 @@
 body {
     display: grid;
-
+    margin: 0;
+    height: 100vh;
     grid: repeat(5, 1fr) / repeat(5, 1fr);
 }
 
