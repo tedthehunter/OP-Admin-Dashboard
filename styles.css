@@ -35,6 +35,18 @@ body {
     grid-area: 1 / 2 / 2 / 5
 }
 
+.header-section > #new-button {
+    grid-area: 1 / 5 / 2 / 6
+}
+
+.header-section > #upload-button {
+    grid-area: 1 / 6 / 2 / 7
+}
+
+.header-section > #share-button {
+    grid-area: 1 / 7 / 2 / 8
+}
+
 .content {
     background-color: gray;
     grid-area: 2 / 2 / 3 / 3;
