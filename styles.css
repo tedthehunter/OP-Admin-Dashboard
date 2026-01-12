@@ -31,6 +31,10 @@ body {
     border: 1px solid black;
 }
 
+.header-section > #search-bar {
+    grid-area: 1 / 2 / 2 / 5
+}
+
 .content {
     background-color: gray;
     grid-area: 2 / 2 / 3 / 3;
