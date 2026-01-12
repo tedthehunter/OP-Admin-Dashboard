@@ -25,6 +25,12 @@ body {
     grid-area: 1 / 2 / 2 / 3;
 }
 
+.header-section {
+    display: grid;
+    grid: 1fr / repeat(7, 1fr);
+    border: 1px solid black;
+}
+
 .content {
     background-color: gray;
     grid-area: 2 / 2 / 3 / 3;
