@@ -50,4 +50,27 @@ body {
 .content {
     background-color: gray;
     grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    grid: 1rem repeat(2, 1fr) / 3fr 1fr;
+    gap: 1rem;
+}
+
+.project-container {
+    grid-area: 2 / 1 / 4 / 2;
+    background-color: lightcoral;
+}
+
+.notifications-container {
+    grid-area: 2 / 2 / 4 / 3;
+    background-color: lightgreen;
+    display: grid;
+    gap: 1rem;;
+}
+
+.announcements-container {
+    display: grid;
+}
+
+.trending-container {
+    display: grid;
 }
