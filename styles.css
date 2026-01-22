@@ -24,12 +24,17 @@ body {
 
 .sidebar-section {
     display: grid;
+    background-color: green;
     grid: 1fr / 1fr 1fr;
     margin-bottom: 2rem;
 }
 
 .sidebar-section > * {
     border: 1px solid black;
+}
+
+.sidebar-section > img {
+    color: white;
 }
 
 .header {
