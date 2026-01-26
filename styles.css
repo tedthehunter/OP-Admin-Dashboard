@@ -30,18 +30,16 @@ body {
     gap: 0.5rem;
 }
 
-.sidebar-section > * {
-    place-self: center start;
-}
-
 .sidebar-section > svg {
     fill: white;
+    place-self: center;
 }
 
 .sidebar-section > a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    place-self: center start;
 }
 
 .sidebar-section > #dashboard-link {
