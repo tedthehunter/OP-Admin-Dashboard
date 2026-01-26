@@ -57,6 +57,11 @@ body {
     border: 1px solid black;
 }
 
+.header-section > button {
+    all: unset;
+    place-self: center;
+}
+
 .header-section > #search-bar {
     grid-area: 1 / 2 / 2 / 5
 }
