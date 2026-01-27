@@ -53,8 +53,9 @@ body {
 
 .header-section {
     display: grid;
-    grid: 1fr / repeat(7, 1fr);
+    grid: 1fr / 1fr repeat(3, 2fr) repeat(3, 1fr);
     border: 1px solid black;
+    
 }
 
 .header-section > button {
@@ -63,19 +64,28 @@ body {
 }
 
 .header-section > #search-bar {
-    grid-area: 1 / 2 / 2 / 5
+    grid-area: 1 / 2 / 2 / 5;
+    height: 1.2rem;
+    place-self: center stretch;
+    border: none;
+    border-radius: 0.75rem;
+    background-color: lightgray;
 }
 
 .header-section > #new-button {
-    grid-area: 1 / 5 / 2 / 6
+    grid-area: 1 / 5 / 2 / 6;
 }
 
 .header-section > #upload-button {
-    grid-area: 1 / 6 / 2 / 7
+    grid-area: 1 / 6 / 2 / 7;
 }
 
 .header-section > #share-button {
-    grid-area: 1 / 7 / 2 / 8
+    grid-area: 1 / 7 / 2 / 8;
+}
+
+.header-section > * {
+    border: 1px solid black;
 }
 
 .content {
