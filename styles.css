@@ -84,6 +84,26 @@ body {
     grid-area: 1 / 7 / 2 / 8;
 }
 
+.profile-thumbnail {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    place-self: center;
+}
+
+.profile-picture {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    place-self: center;
+}
+
+#greeting {
+    place-self: center stretch;
+    font-size: 0.9rem;
+    grid-column: span 2;
+}
+
 .header-section > * {
     border: 1px solid black;
 }
