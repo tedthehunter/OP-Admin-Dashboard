@@ -47,20 +47,21 @@ body {
 }
 
 .header {
-    background-color: yellow;
     grid-area: 1 / 2 / 2 / 3;
+    padding: 1rem 2rem;
 }
 
 .header-section {
     display: grid;
     grid: 1fr / 1fr repeat(3, 2fr) repeat(3, 1fr);
-    border: 1px solid black;
-    
+    place-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .header-section > button {
     all: unset;
-    place-self: center;
+    cursor: pointer;
 }
 
 .header-section > #search-bar {
@@ -70,6 +71,13 @@ body {
     border: none;
     border-radius: 0.75rem;
     background-color: lightgray;
+    padding-left: 0.5rem;
+}
+
+.header-section > a {
+    text-decoration: none;
+    font-weight: bold;
+    width: max-content;
 }
 
 .header-section > #new-button {
@@ -82,6 +90,18 @@ body {
 
 .header-section > #share-button {
     grid-area: 1 / 7 / 2 / 8;
+}
+
+.header-section > .action-button {
+    background-color: #1992d4;
+    color: white;
+    width: 3rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .profile-thumbnail {
@@ -102,10 +122,6 @@ body {
     place-self: center stretch;
     font-size: 0.9rem;
     grid-column: span 2;
-}
-
-.header-section > * {
-    border: 1px solid black;
 }
 
 .content {
