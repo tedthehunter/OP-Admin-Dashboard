@@ -138,6 +138,23 @@ body {
     background-color: lightcoral;
     display: grid;
     grid: repeat(3, 1fr) / repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.project {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.project > h5 {
+    margin: 0;
+}
+
+.project > p {
+    font-size: 0.8rem;
+    color: rgb(92, 92, 92);
+    margin: 0 0 0.5rem;
 }
 
 .announcements-container {
